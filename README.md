@@ -31,17 +31,28 @@ once we login to the web, and use the hack-tool, and copy the session ID, then, 
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
+If we the user name is jmunroe99 and login failed, the text will display  bolded, otherwise, it will display regularlly
 
-Vulnerability #2: __________________
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Vulnerability #2: Cross-Site Scripting (XSS)
+we can input some Javascript in between a pair of <script> in contact us, and the XSS will be executed. 
+  
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+in the salesperson page, we see that id 11 is what we want to hacked, and then from the public/salesperson.php?id=??, change id to 11, we will be able to see the infomation without log in.
 
-Vulnerability #2: __________________
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
+
+we can link to a page, or bottom, that when we click that salesperson's info will be changed.
+
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
