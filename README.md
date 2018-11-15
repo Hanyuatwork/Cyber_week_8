@@ -16,9 +16,17 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
 
-Vulnerability #2: __________________
+if add the given ' OR SLEEP(5)=0--'  in the salesperson.php page,  then the page will proceeds to wait 5 seconds before returning.
+
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Vulnerability #2: Session Hijacking/Fixation
+
+once we login to the web, and use the hack-tool, and copy the session ID, then, if we use different brower, and change session ID to this one, then it will log-in without  username and password
+
+<img src='https://github.com/Hanyuatwork/Cyber_week_8/blob/master/week8_Q4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Green
